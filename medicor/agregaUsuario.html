@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Agregar nuevo usuario</title>
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <script src="js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+  <p class="h2">Crear nuevo Usuario</p>
+  <form action="agregaUsuario.php" method="POST">
+    <div class="form-group">
+    <label>Usuario: </label>
+    <input class="form-control" type="text" name="usuario" id="">
+  </div>
+  <div class="form-group">
+    <label for="">Contraseña: </label>
+    <input class="form-control" type="password" name="contra" id="">
+  </div>
+    <div>
+    <input type="submit" class="btn btn-primary" value="Crear usuario">
+  </div>
+  </form>
+</body>
+</html>
