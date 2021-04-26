@@ -1,0 +1,39 @@
+body{
+  margin:1%;
+  background-color: whitesmoke;
+}
+
+.body-agregar{
+  background-color:whitesmoke;
+}
+
+
+.tabla-borde-sup{
+  border-radius: 5px;
+  border-style: solid solid none;
+  border-color: black;
+}
+
+.tabla-borde-inf{
+  border-radius: 5px;
+  border-style: none solid solid;
+  border-color: black;
+}
+
+.tabla-elemento-check{
+  margin-left: 2%;
+}
+
+details{
+  border: none;
+}
+
+
+.ultimaModificacion{
+  font-size: smaller;
+}
+
+.valoresEncontrados{
+  font-weight: bold;
+  color: blue;
+}

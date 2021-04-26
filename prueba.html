@@ -1,0 +1,27 @@
+<form name="Formulario" method="GET" action="ejercicio4.php">
+  <table>
+      <tr>
+          <td>Introduce elprimer número (a): <input type="number" name="numa" required/>      Introduce el segundo número (b): <input type="number" name="numb" required>
+          </td>
+      </tr>
+      <tr>
+          <td>
+              Operaciones a realizar
+          </td>
+      </tr>
+      <tr>
+          <td>
+            <input type="checkbox" name="operacion[]" value="pot">Obtener la potencia de a elevado a b <br/>
+            <input type="checkbox" name="operacion[]" value="prod">Obtener el producto de a por b<br/>
+            <input type="checkbox" name="operacion[]" value="div">Obtener la divisón de a entre b<br/>
+          <input type="checkbox" name="operacion[]" value="resto">Obtener el resto de la divisón de a entre b<br/>
+          <input type="checkbox" name="operacion[]" value="mayor">Obtener el mayor de a y b<br/>
+          </td>
+          <tr>
+              <td><input type="submit" name="Enviar">
+              <input type="reset" name="Reestablecer">
+              </td>
+          </tr>
+      </tr>
+  </table>
+  </form>
